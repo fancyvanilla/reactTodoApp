@@ -1,0 +1,66 @@
+/* App styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+h3 {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin: 20px;
+}
+
+#inp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  width: 70%;
+  border: none;
+  border-bottom: 2px solid gray;
+  outline: none;
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2ecc71;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+a:hover {
+  background-color: #27ae60;
+}
+
+#todos {
+ display:flex;
+ flex-direction: column;
+ align-items: flex-start;
+ position: absolute;
+ left:50%;
+ transform: translate(-50%);
+}
+
+.todo-check {
+  display: flex;
+  justify-content: center;
+  margin:5px;
+}
+
+.todo {
+  font-size: 15px;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
