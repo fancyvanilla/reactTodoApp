@@ -14,9 +14,7 @@ export default function App() {
   //handling the checks
   const handlecheck=(id)=>{
     const newtodos=todos.map(todo=>{
-      if (todo.id==id) return {...todo,completed:!todo.completed}
-      else 
-      return todo
+      todo.id==id ? {...todo,completed:!todo.completed}:todo
     })
     changeTodos(newtodos)
   }
